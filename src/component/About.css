@@ -1,0 +1,25 @@
+.about {
+    padding: 40px 20px;
+    background-color: #fff5f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .about__container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .about h1 {
+    font-size: 2.5rem;
+    color: #b92b27;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+  
