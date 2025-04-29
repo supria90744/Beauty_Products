@@ -1,11 +1,11 @@
-import Contact from './component/Contact'
 
-const App = () => {
+import Login from './component/Login';
+
+
+function App() {
   return (
-    <div>
-      <Contact/>
-    </div>
-  )
+   <Login/>
+  );
 }
 
-export default App
+export default App;
