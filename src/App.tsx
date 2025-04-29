@@ -1,17 +1,15 @@
-
-import Login from './component/Login';
-
 import Contact from './component/Contact'
 import HomePage from './component/Home'
+import Login from './component/Login';
 
 function App() {
   return (
-   <Login/>
+<><Login/>
+<HomePage/>
+</>
+   
   );
-    <div>
-      <HomePage/>
-    </div>
-  )
+    
 }
 
 export default App;
