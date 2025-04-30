@@ -37,7 +37,7 @@ const HomePage: React.FC = () => {
       <section className="bestsellers">
         <h2>Customer Favorites</h2>
         <div className="product-carousel">
-          {[1, 2, 3, 4].map((num) => (
+          {[1, 2, 3, 4,5,6].map((num) => (
             <div key={num} className="product-card">
               <div className="product-image">Product {num}</div>
               <p>★ ★ ★ ★ ☆</p>
